@@ -10,7 +10,6 @@
     <key>ru</key>
     <value>Операции очереди</value>
   </synonym>
-  <comment></comment>
   <quickChoice>true</quickChoice>
   <choiceMode>BothWays</choiceMode>
   <enumValues uuid="8befc881-4ecc-4457-a9d9-d7be1af0abc3">
@@ -19,7 +18,6 @@
       <key>ru</key>
       <value>Выгрузка конфигурации</value>
     </synonym>
-    <comment></comment>
   </enumValues>
   <enumValues uuid="438caa08-679d-4d17-900e-20972ad0a860">
     <name>ЗагрузкаМетаданных</name>
@@ -27,6 +25,5 @@
       <key>ru</key>
       <value>Загрузка метаданных</value>
     </synonym>
-    <comment></comment>
   </enumValues>
 </mdclass:Enum>

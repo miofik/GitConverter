@@ -10,24 +10,19 @@
     <key>ru</key>
     <value>Состояния версии</value>
   </synonym>
-  <comment></comment>
   <standardAttributes>
     <dataHistory>Use</dataHistory>
     <name>Order</name>
-    <comment></comment>
     <fillValue xsi:type="core:UndefinedValue"/>
     <fullTextSearch>Use</fullTextSearch>
-    <mask></mask>
     <minValue xsi:type="core:UndefinedValue"/>
     <maxValue xsi:type="core:UndefinedValue"/>
   </standardAttributes>
   <standardAttributes>
     <dataHistory>Use</dataHistory>
     <name>Ref</name>
-    <comment></comment>
     <fillValue xsi:type="core:UndefinedValue"/>
     <fullTextSearch>Use</fullTextSearch>
-    <mask></mask>
     <minValue xsi:type="core:UndefinedValue"/>
     <maxValue xsi:type="core:UndefinedValue"/>
   </standardAttributes>
@@ -39,7 +34,6 @@
       <key>ru</key>
       <value>Получение версии</value>
     </synonym>
-    <comment></comment>
   </enumValues>
   <enumValues uuid="af1af028-0532-44d5-b780-8a928df1567f">
     <name>ВерсияПолучена</name>
@@ -47,7 +41,6 @@
       <key>ru</key>
       <value>Версия получена</value>
     </synonym>
-    <comment></comment>
   </enumValues>
   <enumValues uuid="51e3cb41-c999-4236-a107-91727c63046a">
     <name>ВыгрузкаВерсии</name>
@@ -55,7 +48,6 @@
       <key>ru</key>
       <value>Выгрузка версии</value>
     </synonym>
-    <comment></comment>
   </enumValues>
   <enumValues uuid="7a208bd2-3114-4381-a0d7-c68f8651e314">
     <name>ВерсияВыгружена</name>
@@ -63,7 +55,6 @@
       <key>ru</key>
       <value>Версия выгружена</value>
     </synonym>
-    <comment></comment>
   </enumValues>
   <enumValues uuid="96d75451-9431-440b-80a6-b103e0a2227e">
     <name>ЗагрузкаМетаданных</name>
@@ -71,7 +62,6 @@
       <key>ru</key>
       <value>Загрузка метаданных</value>
     </synonym>
-    <comment></comment>
   </enumValues>
   <enumValues uuid="bc0bb8e0-d029-4e80-be57-c78c69e1c3a0">
     <name>МетаданныеЗагружены</name>
@@ -79,7 +69,6 @@
       <key>ru</key>
       <value>Метаданные загружены</value>
     </synonym>
-    <comment></comment>
   </enumValues>
   <enumValues uuid="c4bd971a-8a2a-4094-a99f-4eec0e4087f7">
     <name>НачалоКоммита</name>
@@ -87,7 +76,6 @@
       <key>ru</key>
       <value>Начало коммита</value>
     </synonym>
-    <comment></comment>
   </enumValues>
   <enumValues uuid="bed08d91-4a0d-410e-9d36-ba3ca3b89658">
     <name>ВерсияПомещена</name>
@@ -95,6 +83,5 @@
       <key>ru</key>
       <value>Версия помещена</value>
     </synonym>
-    <comment></comment>
   </enumValues>
 </mdclass:Enum>

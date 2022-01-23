@@ -12,7 +12,6 @@
     <key>ru</key>
     <value>Хранилища конфигураций</value>
   </synonym>
-  <comment></comment>
   <useStandardCommands>true</useStandardCommands>
   <inputByString>Catalog.ХранилищаКонфигураций.StandardAttribute.Description</inputByString>
   <searchStringModeOnInputByString>AnyPart</searchStringModeOnInputByString>
@@ -20,93 +19,75 @@
   <standardAttributes>
     <dataHistory>Use</dataHistory>
     <name>PredefinedDataName</name>
-    <comment></comment>
     <fillValue xsi:type="core:UndefinedValue"/>
     <fullTextSearch>Use</fullTextSearch>
-    <mask></mask>
     <minValue xsi:type="core:UndefinedValue"/>
     <maxValue xsi:type="core:UndefinedValue"/>
   </standardAttributes>
   <standardAttributes>
     <dataHistory>Use</dataHistory>
     <name>Predefined</name>
-    <comment></comment>
     <fillValue xsi:type="core:UndefinedValue"/>
     <fullTextSearch>Use</fullTextSearch>
-    <mask></mask>
     <minValue xsi:type="core:UndefinedValue"/>
     <maxValue xsi:type="core:UndefinedValue"/>
   </standardAttributes>
   <standardAttributes>
     <dataHistory>Use</dataHistory>
     <name>Ref</name>
-    <comment></comment>
     <fillValue xsi:type="core:UndefinedValue"/>
     <fullTextSearch>Use</fullTextSearch>
-    <mask></mask>
     <minValue xsi:type="core:UndefinedValue"/>
     <maxValue xsi:type="core:UndefinedValue"/>
   </standardAttributes>
   <standardAttributes>
     <dataHistory>Use</dataHistory>
     <name>DeletionMark</name>
-    <comment></comment>
     <fillValue xsi:type="core:UndefinedValue"/>
     <fullTextSearch>Use</fullTextSearch>
-    <mask></mask>
     <minValue xsi:type="core:UndefinedValue"/>
     <maxValue xsi:type="core:UndefinedValue"/>
   </standardAttributes>
   <standardAttributes>
     <dataHistory>Use</dataHistory>
     <name>IsFolder</name>
-    <comment></comment>
     <fillValue xsi:type="core:UndefinedValue"/>
     <fullTextSearch>Use</fullTextSearch>
-    <mask></mask>
     <minValue xsi:type="core:UndefinedValue"/>
     <maxValue xsi:type="core:UndefinedValue"/>
   </standardAttributes>
   <standardAttributes>
     <dataHistory>Use</dataHistory>
     <name>Owner</name>
-    <comment></comment>
     <fillFromFillingValue>true</fillFromFillingValue>
     <fillValue xsi:type="core:UndefinedValue"/>
     <fillChecking>ShowError</fillChecking>
     <fullTextSearch>Use</fullTextSearch>
-    <mask></mask>
     <minValue xsi:type="core:UndefinedValue"/>
     <maxValue xsi:type="core:UndefinedValue"/>
   </standardAttributes>
   <standardAttributes>
     <dataHistory>Use</dataHistory>
     <name>Parent</name>
-    <comment></comment>
     <fillFromFillingValue>true</fillFromFillingValue>
     <fillValue xsi:type="core:UndefinedValue"/>
     <fullTextSearch>Use</fullTextSearch>
-    <mask></mask>
     <minValue xsi:type="core:UndefinedValue"/>
     <maxValue xsi:type="core:UndefinedValue"/>
   </standardAttributes>
   <standardAttributes>
     <dataHistory>Use</dataHistory>
     <name>Description</name>
-    <comment></comment>
     <fillValue xsi:type="core:UndefinedValue"/>
     <fullTextSearch>Use</fullTextSearch>
-    <mask></mask>
     <minValue xsi:type="core:UndefinedValue"/>
     <maxValue xsi:type="core:UndefinedValue"/>
   </standardAttributes>
   <standardAttributes>
     <dataHistory>Use</dataHistory>
     <name>Code</name>
-    <comment></comment>
     <fillValue xsi:type="core:UndefinedValue"/>
     <fullTextSearch>Use</fullTextSearch>
-    <mask></mask>
     <minValue xsi:type="core:UndefinedValue"/>
     <maxValue xsi:type="core:UndefinedValue"/>
   </standardAttributes>
@@ -137,7 +118,6 @@
       <key>ru</key>
       <value>Адрес</value>
     </synonym>
-    <comment></comment>
     <type>
       <types>String</types>
       <stringQualifiers/>
@@ -146,7 +126,6 @@
       <key>ru</key>
       <value>Каталог хранилища или строка адреса соединения с хранилищем.</value>
     </toolTip>
-    <mask></mask>
     <minValue xsi:type="core:UndefinedValue"/>
     <maxValue xsi:type="core:UndefinedValue"/>
     <fillChecking>ShowError</fillChecking>
@@ -160,7 +139,6 @@
       <key>ru</key>
       <value>Версия платформы</value>
     </synonym>
-    <comment></comment>
     <type>
       <types>String</types>
       <stringQualifiers>
@@ -171,7 +149,6 @@
       <key>ru</key>
       <value>Если не указано, то используется текущая версия платформы сервера 1С:Предприятия.</value>
     </toolTip>
-    <mask></mask>
     <minValue xsi:type="core:UndefinedValue"/>
     <maxValue xsi:type="core:UndefinedValue"/>
     <fillValue xsi:type="core:UndefinedValue"/>
@@ -184,11 +161,9 @@
       <key>ru</key>
       <value>Регламентное задание</value>
     </synonym>
-    <comment></comment>
     <type>
       <types>UUID</types>
     </type>
-    <mask></mask>
     <minValue xsi:type="core:UndefinedValue"/>
     <maxValue xsi:type="core:UndefinedValue"/>
     <fillValue xsi:type="core:UndefinedValue"/>
@@ -201,12 +176,10 @@
       <key>ru</key>
       <value>Каталог выгрузки версий</value>
     </synonym>
-    <comment></comment>
     <type>
       <types>String</types>
       <stringQualifiers/>
     </type>
-    <mask></mask>
     <minValue xsi:type="core:UndefinedValue"/>
     <maxValue xsi:type="core:UndefinedValue"/>
     <fillChecking>ShowError</fillChecking>
@@ -220,14 +193,12 @@
       <key>ru</key>
       <value>Имя пользователя хранилища</value>
     </synonym>
-    <comment></comment>
     <type>
       <types>String</types>
       <stringQualifiers>
         <length>100</length>
       </stringQualifiers>
     </type>
-    <mask></mask>
     <minValue xsi:type="core:UndefinedValue"/>
     <maxValue xsi:type="core:UndefinedValue"/>
     <fillChecking>ShowError</fillChecking>
@@ -241,14 +212,12 @@
       <key>ru</key>
       <value>Пароль пользователя хранилища</value>
     </synonym>
-    <comment></comment>
     <type>
       <types>String</types>
       <stringQualifiers>
         <length>100</length>
       </stringQualifiers>
     </type>
-    <mask></mask>
     <minValue xsi:type="core:UndefinedValue"/>
     <maxValue xsi:type="core:UndefinedValue"/>
     <fillValue xsi:type="core:UndefinedValue"/>
@@ -261,7 +230,6 @@
       <key>ru</key>
       <value>Версия в git</value>
     </synonym>
-    <comment></comment>
     <type>
       <types>CatalogRef.ВерсииХранилища</types>
     </type>
@@ -269,7 +237,6 @@
       <key>ru</key>
       <value>Версия помещенная в репозиторий Git.</value>
     </toolTip>
-    <mask></mask>
     <minValue xsi:type="core:UndefinedValue"/>
     <maxValue xsi:type="core:UndefinedValue"/>
     <choiceParameterLinks>
@@ -286,12 +253,10 @@
       <key>ru</key>
       <value>Локальный каталог git</value>
     </synonym>
-    <comment></comment>
     <type>
       <types>String</types>
       <stringQualifiers/>
     </type>
-    <mask></mask>
     <minValue xsi:type="core:UndefinedValue"/>
     <maxValue xsi:type="core:UndefinedValue"/>
     <fillChecking>ShowError</fillChecking>
@@ -305,7 +270,6 @@
       <key>ru</key>
       <value>Удалять временные данные версии после коммита</value>
     </synonym>
-    <comment></comment>
     <type>
       <types>Boolean</types>
     </type>
@@ -313,7 +277,6 @@
       <key>ru</key>
       <value>Позволяет удалять сразу после коммита каталог временных данных, необходимых для подготовки версии конвертации.</value>
     </toolTip>
-    <mask></mask>
     <minValue xsi:type="core:UndefinedValue"/>
     <maxValue xsi:type="core:UndefinedValue"/>
     <fillValue xsi:type="core:UndefinedValue"/>
@@ -326,7 +289,6 @@
       <key>ru</key>
       <value>Первая версия</value>
     </synonym>
-    <comment></comment>
     <type>
       <types>Number</types>
       <numberQualifiers>
@@ -337,7 +299,6 @@
       <key>ru</key>
       <value>Первая версия в хранилище указывается, если хранилище было сокращено и есть копия хранилища. Если не указано - не учитывается.</value>
     </toolTip>
-    <mask></mask>
     <minValue xsi:type="core:UndefinedValue"/>
     <maxValue xsi:type="core:UndefinedValue"/>
     <fillValue xsi:type="core:NumberValue">
@@ -352,7 +313,6 @@
       <key>ru</key>
       <value>Последняя версия</value>
     </synonym>
-    <comment></comment>
     <type>
       <types>Number</types>
       <numberQualifiers>
@@ -363,7 +323,6 @@
       <key>ru</key>
       <value>Если указано, то новые версии запрашиваться не будут.</value>
     </toolTip>
-    <mask></mask>
     <minValue xsi:type="core:UndefinedValue"/>
     <maxValue xsi:type="core:UndefinedValue"/>
     <fillValue xsi:type="core:UndefinedValue"/>
@@ -376,7 +335,6 @@
       <key>ru</key>
       <value>Адрес репозитория git</value>
     </synonym>
-    <comment></comment>
     <type>
       <types>String</types>
       <stringQualifiers>
@@ -387,7 +345,6 @@
       <key>ru</key>
       <value>Адрес репозитория Git на сервере. Возможно указание http, https или ssh адреса.  Для варианта SSH авторизации необходимо настроить авторизацию на Git-сервер для пользователя ОС от имени которого запущен сервер 1С.</value>
     </toolTip>
-    <mask></mask>
     <minValue xsi:type="core:UndefinedValue"/>
     <maxValue xsi:type="core:UndefinedValue"/>
     <fillValue xsi:type="core:StringValue">
@@ -402,14 +359,12 @@
       <key>ru</key>
       <value>Пользователь сервера git</value>
     </synonym>
-    <comment></comment>
     <type>
       <types>String</types>
       <stringQualifiers>
         <length>100</length>
       </stringQualifiers>
     </type>
-    <mask></mask>
     <minValue xsi:type="core:UndefinedValue"/>
     <maxValue xsi:type="core:UndefinedValue"/>
     <fillChecking>ShowError</fillChecking>
@@ -425,7 +380,6 @@
       <key>ru</key>
       <value>Пароль сервера git</value>
     </synonym>
-    <comment></comment>
     <type>
       <types>String</types>
       <stringQualifiers>
@@ -433,7 +387,6 @@
       </stringQualifiers>
     </type>
     <passwordMode>true</passwordMode>
-    <mask></mask>
     <minValue xsi:type="core:UndefinedValue"/>
     <maxValue xsi:type="core:UndefinedValue"/>
     <fillChecking>ShowError</fillChecking>
@@ -449,7 +402,6 @@
       <key>ru</key>
       <value>Выполнять коммиты</value>
     </synonym>
-    <comment></comment>
     <type>
       <types>Boolean</types>
     </type>
@@ -457,7 +409,6 @@
       <key>ru</key>
       <value>Разрешает выполнение коммитов в репозиторий git.</value>
     </toolTip>
-    <mask></mask>
     <minValue xsi:type="core:UndefinedValue"/>
     <maxValue xsi:type="core:UndefinedValue"/>
     <fillValue xsi:type="core:UndefinedValue"/>
@@ -470,7 +421,6 @@
       <key>ru</key>
       <value>Максимальное количество подготавливаемых версий</value>
     </synonym>
-    <comment></comment>
     <type>
       <types>Number</types>
       <numberQualifiers>
@@ -482,7 +432,6 @@
       <key>ru</key>
       <value>Количество версий которое может быть подготовлено заранее перед коммитом. Если не указано, то без ограничений.</value>
     </toolTip>
-    <mask></mask>
     <minValue xsi:type="core:UndefinedValue"/>
     <maxValue xsi:type="core:UndefinedValue"/>
     <fillValue xsi:type="core:NumberValue">
@@ -497,14 +446,12 @@
       <key>ru</key>
       <value>Имя ветки</value>
     </synonym>
-    <comment></comment>
     <type>
       <types>String</types>
       <stringQualifiers>
         <length>100</length>
       </stringQualifiers>
     </type>
-    <mask></mask>
     <minValue xsi:type="core:UndefinedValue"/>
     <maxValue xsi:type="core:UndefinedValue"/>
     <fillChecking>ShowError</fillChecking>
@@ -520,7 +467,6 @@
       <key>ru</key>
       <value>Минимальное количество метаданных</value>
     </synonym>
-    <comment></comment>
     <type>
       <types>Number</types>
       <numberQualifiers>
@@ -531,7 +477,6 @@
       <key>ru</key>
       <value>Минимальное количество метаданных при загрузке позволяет контролировать что 1С:Конфигуратор выгрузил все без ошибок и падений. Рекомендуется указывать количество в размере 90-95% от количества в в текущей версии.</value>
     </toolTip>
-    <mask></mask>
     <minValue xsi:type="core:UndefinedValue"/>
     <maxValue xsi:type="core:UndefinedValue"/>
     <fillValue xsi:type="core:NumberValue">
@@ -546,7 +491,6 @@
       <key>ru</key>
       <value>Обрабатывать все очереди</value>
     </synonym>
-    <comment></comment>
     <type>
       <types>Boolean</types>
     </type>
@@ -554,7 +498,6 @@
       <key>ru</key>
       <value>Флаг разрешения работы для всех очередей. Позволяет включать и отключать обработку очередей по текущей настройке конвертации.</value>
     </toolTip>
-    <mask></mask>
     <minValue xsi:type="core:UndefinedValue"/>
     <maxValue xsi:type="core:UndefinedValue"/>
     <fillValue xsi:type="core:UndefinedValue"/>
@@ -567,7 +510,6 @@
       <key>ru</key>
       <value>Запретить использование общих очередей</value>
     </synonym>
-    <comment></comment>
     <type>
       <types>Boolean</types>
     </type>
@@ -575,7 +517,6 @@
       <key>ru</key>
       <value>Будут использованы очереди только для текущего хранилища. Общие очереди выполняют обработку версий хранилища в порядке даты создания.</value>
     </toolTip>
-    <mask></mask>
     <minValue xsi:type="core:UndefinedValue"/>
     <maxValue xsi:type="core:UndefinedValue"/>
     <fillValue xsi:type="core:BooleanValue"/>
@@ -588,7 +529,6 @@
       <key>ru</key>
       <value>Количество коммитов</value>
     </synonym>
-    <comment></comment>
     <type>
       <types>Number</types>
       <numberQualifiers>
@@ -599,7 +539,6 @@
       <key>ru</key>
       <value>Количество коммитов за сеанс фонового процесса, если указано 0 - нет ограничений.</value>
     </toolTip>
-    <mask></mask>
     <minValue xsi:type="core:UndefinedValue"/>
     <maxValue xsi:type="core:UndefinedValue"/>
     <fillValue xsi:type="core:UndefinedValue"/>
@@ -612,7 +551,6 @@
       <key>ru</key>
       <value>Разрешить помещать анонимно если не найден пользователь</value>
     </synonym>
-    <comment></comment>
     <type>
       <types>Boolean</types>
     </type>
@@ -620,7 +558,6 @@
       <key>ru</key>
       <value>Если пользователь хранилища не найден в &quot;Информации пользователей&quot;, либо для него отсутствует email - для такого пользователя не будет разрешено выполнять коммит. Иначе, будет выполнен коммит от имени anonimous@localhost.</value>
     </toolTip>
-    <mask></mask>
     <minValue xsi:type="core:UndefinedValue"/>
     <maxValue xsi:type="core:UndefinedValue"/>
     <fillValue xsi:type="core:UndefinedValue"/>
@@ -633,7 +570,6 @@
       <key>ru</key>
       <value>Имя проекта EDT</value>
     </synonym>
-    <comment></comment>
     <type>
       <types>String</types>
       <stringQualifiers/>
@@ -642,7 +578,6 @@
       <key>ru</key>
       <value>Имя проекта EDT или относительный путь к каталогу проекта 1C:EDT в репозитории git,  где последний сегмент пути является именем проекта. Не может быть пустым.</value>
     </toolTip>
-    <mask></mask>
     <minValue xsi:type="core:UndefinedValue"/>
     <maxValue xsi:type="core:UndefinedValue"/>
     <fillChecking>ShowError</fillChecking>
@@ -658,7 +593,6 @@
       <key>ru</key>
       <value>Удалять конфигурации поставщиков</value>
     </synonym>
-    <comment></comment>
     <type>
       <types>Boolean</types>
     </type>
@@ -667,7 +601,6 @@
       <value>Позволяет не хранить в репозитории файлы конфигураций поставщиков для оптимизации репозитория. 
 Не рекомендуется включать, если планируется загрузка конфигурации из файлов и обновление конфигураций поставщиков.</value>
     </toolTip>
-    <mask></mask>
     <minValue xsi:type="core:UndefinedValue"/>
     <maxValue xsi:type="core:UndefinedValue"/>
     <fillValue xsi:type="core:UndefinedValue"/>
@@ -680,7 +613,6 @@
       <key>ru</key>
       <value>Выгружать изменения</value>
     </synonym>
-    <comment></comment>
     <type>
       <types>Boolean</types>
     </type>
@@ -688,7 +620,6 @@
       <key>ru</key>
       <value>Начиная с платформы 8.3.10 возможно использовать выгрузку изменений между версиями - это позволяет существенно ускорить конвертацию. Для версий платформы ниже 8.3.15 необходимо использовать &quot;Очереди выполнения&quot; с данной опцией.</value>
     </toolTip>
-    <mask></mask>
     <minValue xsi:type="core:UndefinedValue"/>
     <maxValue xsi:type="core:UndefinedValue"/>
     <fillFromFillingValue>true</fillFromFillingValue>
@@ -704,12 +635,10 @@
       <key>ru</key>
       <value>Описание</value>
     </synonym>
-    <comment></comment>
     <type>
       <types>String</types>
       <stringQualifiers/>
     </type>
-    <mask></mask>
     <multiLine>true</multiLine>
     <extendedEdit>true</extendedEdit>
     <minValue xsi:type="core:UndefinedValue"/>
@@ -733,6 +662,8 @@
       <key>ru</key>
       <value>Рекомендуется использовать конвертацию в формат 1C:EDT. Для переключения устаревших настроек воспользуйтесь обработкой &quot;Конвертация в формат EDT&quot;</value>
     </toolTip>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
     <fillValue xsi:type="core:BooleanValue">
       <value>true</value>
     </fillValue>
@@ -752,6 +683,9 @@
       <key>ru</key>
       <value>При изменении версии конфигурации, например с версии 1.0.0.1 -> 1.0.0.2, на последний коммит с версией 1.0.0.1 будет добавлен тег &quot;v1.0.0.1&quot;.</value>
     </toolTip>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillValue xsi:type="core:UndefinedValue"/>
     <fullTextSearch>Use</fullTextSearch>
     <dataHistory>Use</dataHistory>
   </attributes>
@@ -771,7 +705,12 @@
       <key>ru</key>
       <value>Компонента ring, в случае если на сервере конвертации хранилища установлено несколько версий EDT, требует явного указания версии. После указания версии во всех командах ring edt будет установлен номер версии.</value>
     </toolTip>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
     <fillChecking>ShowError</fillChecking>
+    <fillValue xsi:type="core:StringValue">
+      <value></value>
+    </fillValue>
     <fullTextSearch>Use</fullTextSearch>
     <dataHistory>Use</dataHistory>
   </attributes>
@@ -788,6 +727,9 @@
       <key>ru</key>
       <value>Позволяет отключить логирование всех действий по проекту в файлы логов. Снижает нагрузку на диск, но усложняет расследование неполадок.</value>
     </toolTip>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillValue xsi:type="core:UndefinedValue"/>
     <fullTextSearch>Use</fullTextSearch>
     <dataHistory>Use</dataHistory>
   </attributes>
@@ -800,6 +742,8 @@
     <type>
       <types>EnumRef.ТипыХранилищаКонфигураций</types>
     </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
     <fillChecking>ShowError</fillChecking>
     <fillFromFillingValue>true</fillFromFillingValue>
     <fillValue xsi:type="core:ReferenceValue">
@@ -820,7 +764,12 @@
         <length>100</length>
       </stringQualifiers>
     </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
     <fillChecking>ShowError</fillChecking>
+    <fillValue xsi:type="core:StringValue">
+      <value></value>
+    </fillValue>
     <fullTextSearch>Use</fullTextSearch>
     <dataHistory>Use</dataHistory>
   </attributes>
@@ -837,6 +786,8 @@
         <length>255</length>
       </stringQualifiers>
     </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
     <fillChecking>ShowError</fillChecking>
     <choiceParameters>
       <name>Отбор.ТипХранилища</name>
@@ -844,6 +795,9 @@
         <value>Enum.ТипыХранилищаКонфигураций.EnumValue.Конфигурация</value>
       </value>
     </choiceParameters>
+    <fillValue xsi:type="core:StringValue">
+      <value></value>
+    </fillValue>
     <fullTextSearch>Use</fullTextSearch>
     <dataHistory>Use</dataHistory>
   </attributes>
@@ -853,7 +807,6 @@
       <key>ru</key>
       <value>Форма элемента</value>
     </synonym>
-    <comment></comment>
     <includeHelpInContents>true</includeHelpInContents>
     <help>
       <pages>
@@ -869,7 +822,6 @@
       <key>ru</key>
       <value>Форма списка</value>
     </synonym>
-    <comment></comment>
     <usePurposes>PersonalComputer</usePurposes>
     <usePurposes>MobileDevice</usePurposes>
   </forms>

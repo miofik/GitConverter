@@ -5,10 +5,8 @@
     <key>ru</key>
     <value>Конвертация хранилища</value>
   </synonym>
-  <comment></comment>
   <methodName>CommonModule.КонвертацияХранилища.ВыполнитьКонвертацию</methodName>
   <description>Конвертация хранилища</description>
-  <key></key>
   <use>true</use>
   <restartCountOnFailure>3</restartCountOnFailure>
   <restartIntervalOnFailure>25</restartIntervalOnFailure>

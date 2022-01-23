@@ -5,10 +5,7 @@
     <key>ru</key>
     <value>Выгрузка версии из копии хранилища</value>
   </synonym>
-  <comment></comment>
   <methodName>CommonModule.КонвертацияХранилища.ВыгрузитьВерсиюИзКопииХранилища</methodName>
-  <description></description>
-  <key></key>
   <use>true</use>
   <restartCountOnFailure>3</restartCountOnFailure>
   <restartIntervalOnFailure>10</restartIntervalOnFailure>

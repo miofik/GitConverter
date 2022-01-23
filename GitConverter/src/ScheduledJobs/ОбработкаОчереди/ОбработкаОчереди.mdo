@@ -5,10 +5,8 @@
     <key>ru</key>
     <value>Обработка очереди</value>
   </synonym>
-  <comment></comment>
   <methodName>CommonModule.ОбработкаОчередей.ОбработатьОчередь</methodName>
   <description>Обработка очереди</description>
-  <key></key>
   <use>true</use>
   <restartCountOnFailure>3</restartCountOnFailure>
   <restartIntervalOnFailure>10</restartIntervalOnFailure>

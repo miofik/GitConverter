@@ -53,10 +53,8 @@
     <userVisible>
       <common>true</common>
     </userVisible>
-    <dataPath xsi:type="form:MultiLanguageDataPath">
-      <paths xsi:type="form:DataPath">
-        <segments>Хранилище</segments>
-      </paths>
+    <dataPath xsi:type="form:DataPath">
+      <segments>Хранилище</segments>
     </dataPath>
     <handlers>
       <event>OnChange</event>
@@ -115,10 +113,8 @@
     <userVisible>
       <common>true</common>
     </userVisible>
-    <dataPath xsi:type="form:MultiLanguageDataPath">
-      <paths xsi:type="form:DataPath">
-        <segments>Хранилище.ВерсияВGit</segments>
-      </paths>
+    <dataPath xsi:type="form:DataPath">
+      <segments>Хранилище.ВерсияВGit</segments>
     </dataPath>
     <extendedTooltip>
       <name>ХранилищеВерсияВGitРасширеннаяПодсказка</name>
@@ -215,10 +211,8 @@
     <userVisible>
       <common>true</common>
     </userVisible>
-    <dataPath xsi:type="form:MultiLanguageDataPath">
-      <paths xsi:type="form:DataPath">
-        <segments>Хранилище.ЛокальныйКаталогGit</segments>
-      </paths>
+    <dataPath xsi:type="form:DataPath">
+      <segments>Хранилище.ЛокальныйКаталогGit</segments>
     </dataPath>
     <extendedTooltip>
       <name>ХранилищеЛокальныйКаталогGitРасширеннаяПодсказка</name>
@@ -268,10 +262,8 @@
     <userVisible>
       <common>true</common>
     </userVisible>
-    <dataPath xsi:type="form:MultiLanguageDataPath">
-      <paths xsi:type="form:DataPath">
-        <segments>Хранилище.ИмяПроектаEDT</segments>
-      </paths>
+    <dataPath xsi:type="form:DataPath">
+      <segments>Хранилище.ИмяПроектаEDT</segments>
     </dataPath>
     <extendedTooltip>
       <name>ХранилищеИмяПроектаEDTРасширеннаяПодсказка</name>
@@ -434,10 +426,8 @@
     <userVisible>
       <common>true</common>
     </userVisible>
-    <dataPath xsi:type="form:MultiLanguageDataPath">
-      <paths xsi:type="form:DataPath">
-        <segments>ОтключитьРегламентныеЗадания</segments>
-      </paths>
+    <dataPath xsi:type="form:DataPath">
+      <segments>ОтключитьРегламентныеЗадания</segments>
     </dataPath>
     <titleLocation>Right</titleLocation>
     <extendedTooltip>
@@ -480,10 +470,8 @@
     <userVisible>
       <common>true</common>
     </userVisible>
-    <dataPath xsi:type="form:MultiLanguageDataPath">
-      <paths xsi:type="form:DataPath">
-        <segments>ОтключитьКоммиты</segments>
-      </paths>
+    <dataPath xsi:type="form:DataPath">
+      <segments>ОтключитьКоммиты</segments>
     </dataPath>
     <titleLocation>Right</titleLocation>
     <extendedTooltip>
@@ -526,10 +514,8 @@
     <userVisible>
       <common>true</common>
     </userVisible>
-    <dataPath xsi:type="form:MultiLanguageDataPath">
-      <paths xsi:type="form:DataPath">
-        <segments>ОтключитьОчереди</segments>
-      </paths>
+    <dataPath xsi:type="form:DataPath">
+      <segments>ОтключитьОчереди</segments>
     </dataPath>
     <titleLocation>Right</titleLocation>
     <extendedTooltip>
@@ -682,10 +668,8 @@ ring edt platform-versions
     <userVisible>
       <common>true</common>
     </userVisible>
-    <dataPath xsi:type="form:MultiLanguageDataPath">
-      <paths xsi:type="form:DataPath">
-        <segments>ПутьКФайламПроектаEDT</segments>
-      </paths>
+    <dataPath xsi:type="form:DataPath">
+      <segments>ПутьКФайламПроектаEDT</segments>
     </dataPath>
     <extendedTooltip>
       <name>ПутьКФайламПроектаEDTРасширеннаяПодсказка</name>
@@ -795,10 +779,8 @@ ring edt platform-versions
       <userVisible>
         <common>true</common>
       </userVisible>
-      <dataPath xsi:type="form:MultiLanguageDataPath">
-        <paths xsi:type="form:DataPath">
-          <segments>email</segments>
-        </paths>
+      <dataPath xsi:type="form:DataPath">
+        <segments>email</segments>
       </dataPath>
       <extendedTooltip>
         <name>emailРасширеннаяПодсказка</name>
@@ -847,10 +829,8 @@ ring edt platform-versions
       <userVisible>
         <common>true</common>
       </userVisible>
-      <dataPath xsi:type="form:MultiLanguageDataPath">
-        <paths xsi:type="form:DataPath">
-          <segments>ИмяПользователя</segments>
-        </paths>
+      <dataPath xsi:type="form:DataPath">
+        <segments>ИмяПользователя</segments>
       </dataPath>
       <extendedTooltip>
         <name>ИмяПользователяРасширеннаяПодсказка</name>
@@ -899,10 +879,8 @@ ring edt platform-versions
       <userVisible>
         <common>true</common>
       </userVisible>
-      <dataPath xsi:type="form:MultiLanguageDataPath">
-        <paths xsi:type="form:DataPath">
-          <segments>Комментарий</segments>
-        </paths>
+      <dataPath xsi:type="form:DataPath">
+        <segments>Комментарий</segments>
       </dataPath>
       <extendedTooltip>
         <name>КомментарийРасширеннаяПодсказка</name>
@@ -1036,10 +1014,8 @@ ring edt platform-versions
     <userVisible>
       <common>true</common>
     </userVisible>
-    <dataPath xsi:type="form:MultiLanguageDataPath">
-      <paths xsi:type="form:DataPath">
-        <segments>ВыполнитьPushПослеКонвертации</segments>
-      </paths>
+    <dataPath xsi:type="form:DataPath">
+      <segments>ВыполнитьPushПослеКонвертации</segments>
     </dataPath>
     <titleLocation>Right</titleLocation>
     <extendedTooltip>
@@ -1085,10 +1061,8 @@ ring edt platform-versions
       <userVisible>
         <common>true</common>
       </userVisible>
-      <dataPath xsi:type="form:MultiLanguageDataPath">
-        <paths xsi:type="form:DataPath">
-          <segments>ИмяФайлаКомандыGit</segments>
-        </paths>
+      <dataPath xsi:type="form:DataPath">
+        <segments>ИмяФайлаКомандыGit</segments>
       </dataPath>
       <extendedTooltip>
         <name>ИмяФайлаКомандыGitРасширеннаяПодсказка</name>
@@ -1174,10 +1148,8 @@ ring edt platform-versions
       <userVisible>
         <common>true</common>
       </userVisible>
-      <dataPath xsi:type="form:MultiLanguageDataPath">
-        <paths xsi:type="form:DataPath">
-          <segments>ИмяФайлаКомментария</segments>
-        </paths>
+      <dataPath xsi:type="form:DataPath">
+        <segments>ИмяФайлаКомментария</segments>
       </dataPath>
       <extendedTooltip>
         <name>ИмяФайлаКомментарияРасширеннаяПодсказка</name>
@@ -1263,10 +1235,8 @@ ring edt platform-versions
       <userVisible>
         <common>true</common>
       </userVisible>
-      <dataPath xsi:type="form:MultiLanguageDataPath">
-        <paths xsi:type="form:DataPath">
-          <segments>ИмяФайлаЛога</segments>
-        </paths>
+      <dataPath xsi:type="form:DataPath">
+        <segments>ИмяФайлаЛога</segments>
       </dataPath>
       <extendedTooltip>
         <name>ИмяФайлаЛогаРасширеннаяПодсказка</name>
@@ -1374,6 +1344,7 @@ ring edt platform-versions
       <autoMaxWidth>true</autoMaxWidth>
       <autoMaxHeight>true</autoMaxHeight>
       <placementArea>UserCmds</placementArea>
+      <toolTipRepresentation>Auto</toolTipRepresentation>
     </items>
     <visible>true</visible>
     <enabled>true</enabled>

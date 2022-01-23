@@ -154,7 +154,7 @@
         <common>true</common>
       </userVisible>
       <dataPath xsi:type="form:DataPath">
-        <segments>Список.Наименование</segments>
+        <segments>Список.Description</segments>
       </dataPath>
       <extendedTooltip>
         <name>НаименованиеРасширеннаяПодсказка</name>
@@ -201,10 +201,8 @@
       <visible>true</visible>
       <enabled>true</enabled>
       <userVisible/>
-      <dataPath xsi:type="form:MultiLanguageDataPath">
-        <paths xsi:type="form:DataPath">
-          <segments>Список.Адрес</segments>
-        </paths>
+      <dataPath xsi:type="form:DataPath">
+        <segments>Список.Адрес</segments>
       </dataPath>
       <extendedTooltip>
         <name>АдресРасширеннаяПодсказка1</name>
@@ -250,10 +248,8 @@
       <userVisible>
         <common>true</common>
       </userVisible>
-      <dataPath xsi:type="form:MultiLanguageDataPath">
-        <paths xsi:type="form:DataPath">
-          <segments>Список.ВерсияПлатформы</segments>
-        </paths>
+      <dataPath xsi:type="form:DataPath">
+        <segments>Список.ВерсияПлатформы</segments>
       </dataPath>
       <extendedTooltip>
         <name>ВерсияПлатформыРасширеннаяПодсказка1</name>
@@ -299,10 +295,8 @@
       <userVisible>
         <common>true</common>
       </userVisible>
-      <dataPath xsi:type="form:MultiLanguageDataPath">
-        <paths xsi:type="form:DataPath">
-          <segments>Список.ВерсияВGit</segments>
-        </paths>
+      <dataPath xsi:type="form:DataPath">
+        <segments>Список.ВерсияВGit</segments>
       </dataPath>
       <extendedTooltip>
         <name>ВерсияВGitРасширеннаяПодсказка</name>
@@ -347,10 +341,8 @@
       <userVisible>
         <common>true</common>
       </userVisible>
-      <dataPath xsi:type="form:MultiLanguageDataPath">
-        <paths xsi:type="form:DataPath">
-          <segments>Список.ЛокальныйКаталогGit</segments>
-        </paths>
+      <dataPath xsi:type="form:DataPath">
+        <segments>Список.ЛокальныйКаталогGit</segments>
       </dataPath>
       <extendedTooltip>
         <name>ЛокальныйКаталогGitРасширеннаяПодсказка1</name>
@@ -394,7 +386,7 @@
       <enabled>true</enabled>
       <userVisible/>
       <dataPath xsi:type="form:DataPath">
-        <segments>Список.Ссылка</segments>
+        <segments>Список.Ref</segments>
       </dataPath>
       <extendedTooltip>
         <name>СсылкаРасширеннаяПодсказка</name>
@@ -479,7 +471,6 @@
         </userVisible>
         <autoFill>true</autoFill>
       </contextMenu>
-      <source>СписокСтрокаПоиска1</source>
       <extInfo xsi:type="form:SearchStringAdditionExtInfo">
         <autoMaxWidth>true</autoMaxWidth>
       </extInfo>
@@ -518,7 +509,6 @@
         <autoFill>true</autoFill>
       </contextMenu>
       <type>ViewStatusAddition</type>
-      <source>СписокСостояниеПросмотра1</source>
       <extInfo xsi:type="form:ViewStatusAdditionExtInfo">
         <autoMaxWidth>true</autoMaxWidth>
         <horizontalLocation>Left</horizontalLocation>
@@ -558,7 +548,6 @@
         <autoFill>true</autoFill>
       </contextMenu>
       <type>SearchControlAddition</type>
-      <source>СписокУправлениеПоиском1</source>
       <extInfo xsi:type="form:SearchControlAdditionExtInfo">
         <autoMaxWidth>true</autoMaxWidth>
       </extInfo>
@@ -653,51 +642,51 @@
       <common>true</common>
     </edit>
     <notDefaultUseAlwaysAttributes xsi:type="form:DataPath">
-      <segments>Список.РегламентноеЗадание</segments>
-    </notDefaultUseAlwaysAttributes>
-    <notDefaultUseAlwaysAttributes xsi:type="form:DataPath">
-      <segments>Список.Ссылка</segments>
+      <segments>Список.Ref</segments>
     </notDefaultUseAlwaysAttributes>
     <notDefaultUseAlwaysAttributes xsi:type="form:DataPath">
       <segments>Список.КонвертироватьПоРасписанию</segments>
     </notDefaultUseAlwaysAttributes>
+    <notDefaultUseAlwaysAttributes xsi:type="form:DataPath">
+      <segments>Список.РегламентноеЗадание</segments>
+    </notDefaultUseAlwaysAttributes>
     <main>true</main>
     <extInfo xsi:type="form:DynamicListExtInfo">
-      <queryText>ВЫБРАТЬ &#xD;
-       ХранилищаКонфигураций.Ссылка, &#xD;
-       ХранилищаКонфигураций.ПометкаУдаления, &#xD;
-       ХранилищаКонфигураций.Наименование, &#xD;
-       ХранилищаКонфигураций.Адрес, &#xD;
-       ХранилищаКонфигураций.ВерсияПлатформы, &#xD;
-       ХранилищаКонфигураций.РегламентноеЗадание, &#xD;
-       ХранилищаКонфигураций.КаталогВыгрузкиВерсий, &#xD;
-       ХранилищаКонфигураций.ИмяПользователяХранилища, &#xD;
-       ХранилищаКонфигураций.ПарольПользователяХранилища, &#xD;
-       ХранилищаКонфигураций.ВерсияВGit, &#xD;
-       ХранилищаКонфигураций.ЛокальныйКаталогGit, &#xD;
-       ХранилищаКонфигураций.УдалятьВременныеДанныеВерсииПослеКоммита, &#xD;
-       ХранилищаКонфигураций.ПерваяВерсия, &#xD;
-       ХранилищаКонфигураций.ПоследняяВерсия, &#xD;
-       ХранилищаКонфигураций.АдресРепозиторияGit, &#xD;
-       ХранилищаКонфигураций.ПользовательСервераGit, &#xD;
-       ХранилищаКонфигураций.ПарольСервераGit, &#xD;
-       ХранилищаКонфигураций.ВыполнятьКоммиты, &#xD;
-       ХранилищаКонфигураций.МаксимальноеКоличествоПодготавливаемыхВерсий, &#xD;
-       ХранилищаКонфигураций.ИмяВетки, &#xD;
-       ХранилищаКонфигураций.МинимальноеКоличествоМетаданных, &#xD;
-       ХранилищаКонфигураций.ОбрабатыватьВсеОчереди, &#xD;
-       ХранилищаКонфигураций.ЗапретитьИспользованиеОбщихОчередей, &#xD;
-       ХранилищаКонфигураций.КоличествоКоммитов, &#xD;
-       ХранилищаКонфигураций.РазрешитьПомещатьАнонимноЕслиНеНайденПользователь, &#xD;
-       ХранилищаКонфигураций.ИмяПроектаEDT, &#xD;
-       ХранилищаКонфигураций.УдалятьКонфигурацииПоставщиков, &#xD;
-       ХранилищаКонфигураций.ВыгружатьИзменения, &#xD;
-       ХранилищаКонфигураций.Описание, &#xD;
-       ХранилищаКонфигураций.КонвертироватьВФорматEDT, &#xD;
-	   ЛОЖЬ КАК КонвертироватьПоРасписанию&#xD;
- ИЗ &#xD;
-       Справочник.ХранилищаКонфигураций&#xD;
- КАК &#xD;
+      <queryText>ВЫБРАТЬ 
+       ХранилищаКонфигураций.Ссылка, 
+       ХранилищаКонфигураций.ПометкаУдаления, 
+       ХранилищаКонфигураций.Наименование, 
+       ХранилищаКонфигураций.Адрес, 
+       ХранилищаКонфигураций.ВерсияПлатформы, 
+       ХранилищаКонфигураций.РегламентноеЗадание, 
+       ХранилищаКонфигураций.КаталогВыгрузкиВерсий, 
+       ХранилищаКонфигураций.ИмяПользователяХранилища, 
+       ХранилищаКонфигураций.ПарольПользователяХранилища, 
+       ХранилищаКонфигураций.ВерсияВGit, 
+       ХранилищаКонфигураций.ЛокальныйКаталогGit, 
+       ХранилищаКонфигураций.УдалятьВременныеДанныеВерсииПослеКоммита, 
+       ХранилищаКонфигураций.ПерваяВерсия, 
+       ХранилищаКонфигураций.ПоследняяВерсия, 
+       ХранилищаКонфигураций.АдресРепозиторияGit, 
+       ХранилищаКонфигураций.ПользовательСервераGit, 
+       ХранилищаКонфигураций.ПарольСервераGit, 
+       ХранилищаКонфигураций.ВыполнятьКоммиты, 
+       ХранилищаКонфигураций.МаксимальноеКоличествоПодготавливаемыхВерсий, 
+       ХранилищаКонфигураций.ИмяВетки, 
+       ХранилищаКонфигураций.МинимальноеКоличествоМетаданных, 
+       ХранилищаКонфигураций.ОбрабатыватьВсеОчереди, 
+       ХранилищаКонфигураций.ЗапретитьИспользованиеОбщихОчередей, 
+       ХранилищаКонфигураций.КоличествоКоммитов, 
+       ХранилищаКонфигураций.РазрешитьПомещатьАнонимноЕслиНеНайденПользователь, 
+       ХранилищаКонфигураций.ИмяПроектаEDT, 
+       ХранилищаКонфигураций.УдалятьКонфигурацииПоставщиков, 
+       ХранилищаКонфигураций.ВыгружатьИзменения, 
+       ХранилищаКонфигураций.Описание, 
+       ХранилищаКонфигураций.КонвертироватьВФорматEDT, 
+	   ЛОЖЬ КАК КонвертироватьПоРасписанию
+ ИЗ 
+       Справочник.ХранилищаКонфигураций
+ КАК 
        ХранилищаКонфигураций</queryText>
       <mainTable>Catalog.ХранилищаКонфигураций</mainTable>
       <dynamicDataRead>true</dynamicDataRead>

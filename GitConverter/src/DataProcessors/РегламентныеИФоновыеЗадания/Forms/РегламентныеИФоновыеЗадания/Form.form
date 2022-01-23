@@ -36,10 +36,8 @@
           <userVisible>
             <common>true</common>
           </userVisible>
-          <dataPath xsi:type="form:MultiLanguageDataPath">
-            <paths xsi:type="form:DataPath">
-              <segments>ТаблицаРегламентныеЗадания.Использование</segments>
-            </paths>
+          <dataPath xsi:type="form:DataPath">
+            <segments>ТаблицаРегламентныеЗадания.Использование</segments>
           </dataPath>
           <titleLocation>None</titleLocation>
           <toolTip>
@@ -94,10 +92,8 @@
           <userVisible>
             <common>true</common>
           </userVisible>
-          <dataPath xsi:type="form:MultiLanguageDataPath">
-            <paths xsi:type="form:DataPath">
-              <segments>ТаблицаРегламентныеЗадания.Наименование</segments>
-            </paths>
+          <dataPath xsi:type="form:DataPath">
+            <segments>ТаблицаРегламентныеЗадания.Наименование</segments>
           </dataPath>
           <extendedTooltip>
             <name>НаименованиеExtendedTooltip</name>
@@ -149,10 +145,8 @@
           <userVisible>
             <common>true</common>
           </userVisible>
-          <dataPath xsi:type="form:MultiLanguageDataPath">
-            <paths xsi:type="form:DataPath">
-              <segments>ТаблицаРегламентныеЗадания.СостояниеВыполнения</segments>
-            </paths>
+          <dataPath xsi:type="form:DataPath">
+            <segments>ТаблицаРегламентныеЗадания.СостояниеВыполнения</segments>
           </dataPath>
           <toolTip>
             <key>ru</key>
@@ -205,10 +199,8 @@
           <userVisible>
             <common>true</common>
           </userVisible>
-          <dataPath xsi:type="form:MultiLanguageDataPath">
-            <paths xsi:type="form:DataPath">
-              <segments>ТаблицаРегламентныеЗадания.ДатаОкончания</segments>
-            </paths>
+          <dataPath xsi:type="form:DataPath">
+            <segments>ТаблицаРегламентныеЗадания.ДатаОкончания</segments>
           </dataPath>
           <toolTip>
             <key>ru</key>
@@ -258,10 +250,8 @@
           <visible>true</visible>
           <enabled>true</enabled>
           <userVisible/>
-          <dataPath xsi:type="form:MultiLanguageDataPath">
-            <paths xsi:type="form:DataPath">
-              <segments>ТаблицаРегламентныеЗадания.ИмяПользователя</segments>
-            </paths>
+          <dataPath xsi:type="form:DataPath">
+            <segments>ТаблицаРегламентныеЗадания.ИмяПользователя</segments>
           </dataPath>
           <toolTip>
             <key>ru</key>
@@ -315,10 +305,8 @@
           <visible>true</visible>
           <enabled>true</enabled>
           <userVisible/>
-          <dataPath xsi:type="form:MultiLanguageDataPath">
-            <paths xsi:type="form:DataPath">
-              <segments>ТаблицаРегламентныеЗадания.Предопределенное</segments>
-            </paths>
+          <dataPath xsi:type="form:DataPath">
+            <segments>ТаблицаРегламентныеЗадания.Предопределенное</segments>
           </dataPath>
           <toolTip>
             <key>ru</key>
@@ -384,10 +372,10 @@
               </extInfo>
             </extendedTooltip>
             <commandName>Form.Item.ТаблицаРегламентныеЗадания.StandardCommand.Add</commandName>
-            <onlyInAllActions>true</onlyInAllActions>
             <autoMaxWidth>true</autoMaxWidth>
             <autoMaxHeight>true</autoMaxHeight>
             <placementArea>UserCmds</placementArea>
+            <toolTipRepresentation>Auto</toolTipRepresentation>
           </items>
           <items xsi:type="form:Button">
             <name>ТаблицаРегламентныеЗаданияИзменить</name>
@@ -414,10 +402,10 @@
             </extendedTooltip>
             <commandName>Form.Item.ТаблицаРегламентныеЗадания.StandardCommand.Change</commandName>
             <representation>Auto</representation>
-            <onlyInAllActions>true</onlyInAllActions>
             <autoMaxWidth>true</autoMaxWidth>
             <autoMaxHeight>true</autoMaxHeight>
             <placementArea>UserCmds</placementArea>
+            <toolTipRepresentation>Auto</toolTipRepresentation>
           </items>
           <items xsi:type="form:Button">
             <name>ТаблицаРегламентныеЗаданияОбновитьДанные</name>
@@ -448,6 +436,7 @@
             <autoMaxWidth>true</autoMaxWidth>
             <autoMaxHeight>true</autoMaxHeight>
             <placementArea>UserCmds</placementArea>
+            <toolTipRepresentation>Auto</toolTipRepresentation>
           </items>
           <items xsi:type="form:Button">
             <name>ТаблицаРегламентныеЗаданияНастроитьРасписание</name>
@@ -478,6 +467,7 @@
             <autoMaxWidth>true</autoMaxWidth>
             <autoMaxHeight>true</autoMaxHeight>
             <placementArea>UserCmds</placementArea>
+            <toolTipRepresentation>Auto</toolTipRepresentation>
           </items>
           <items xsi:type="form:Button">
             <name>ТаблицаРегламентныеЗаданияСкопировать</name>
@@ -504,10 +494,10 @@
             </extendedTooltip>
             <commandName>Form.Item.ТаблицаРегламентныеЗадания.StandardCommand.Copy</commandName>
             <representation>Auto</representation>
-            <onlyInAllActions>true</onlyInAllActions>
             <autoMaxWidth>true</autoMaxWidth>
             <autoMaxHeight>true</autoMaxHeight>
             <placementArea>UserCmds</placementArea>
+            <toolTipRepresentation>Auto</toolTipRepresentation>
           </items>
           <items xsi:type="form:Button">
             <name>ТаблицаРегламентныеЗаданияУдалить</name>
@@ -534,10 +524,10 @@
             </extendedTooltip>
             <commandName>Form.Item.ТаблицаРегламентныеЗадания.StandardCommand.Delete</commandName>
             <representation>Auto</representation>
-            <onlyInAllActions>true</onlyInAllActions>
             <autoMaxWidth>true</autoMaxWidth>
             <autoMaxHeight>true</autoMaxHeight>
             <placementArea>UserCmds</placementArea>
+            <toolTipRepresentation>Auto</toolTipRepresentation>
           </items>
           <items xsi:type="form:Button">
             <name>ТаблицаРегламентныеЗаданияВыполнитьСейчас</name>
@@ -568,6 +558,7 @@
             <autoMaxWidth>true</autoMaxWidth>
             <autoMaxHeight>true</autoMaxHeight>
             <placementArea>UserCmds</placementArea>
+            <toolTipRepresentation>Auto</toolTipRepresentation>
           </items>
           <items xsi:type="form:Button">
             <name>ТаблицаРегламентныеЗаданияИзменитьФорму</name>
@@ -597,6 +588,7 @@
             <autoMaxWidth>true</autoMaxWidth>
             <autoMaxHeight>true</autoMaxHeight>
             <placementArea>UserCmds</placementArea>
+            <toolTipRepresentation>Auto</toolTipRepresentation>
           </items>
           <items xsi:type="form:Button">
             <name>ТаблицаРегламентныеЗаданияСправка</name>
@@ -627,6 +619,7 @@
             <autoMaxWidth>true</autoMaxWidth>
             <autoMaxHeight>true</autoMaxHeight>
             <placementArea>UserCmds</placementArea>
+            <toolTipRepresentation>Auto</toolTipRepresentation>
           </items>
           <items xsi:type="form:Button">
             <name>ТаблицаРегламентныеЗаданияПоказатьВсеЗадания</name>
@@ -653,10 +646,10 @@
             </extendedTooltip>
             <commandName>Form.Command.ПоказатьВсеЗадания</commandName>
             <representation>Auto</representation>
-            <onlyInAllActions>true</onlyInAllActions>
             <autoMaxWidth>true</autoMaxWidth>
             <autoMaxHeight>true</autoMaxHeight>
             <placementArea>UserCmds</placementArea>
+            <toolTipRepresentation>Auto</toolTipRepresentation>
           </items>
           <visible>true</visible>
           <enabled>true</enabled>
@@ -715,7 +708,6 @@
             </userVisible>
             <autoFill>true</autoFill>
           </contextMenu>
-          <source>ТаблицаРегламентныеЗаданияСтрокаПоиска</source>
           <extInfo xsi:type="form:SearchStringAdditionExtInfo">
             <autoMaxWidth>true</autoMaxWidth>
           </extInfo>
@@ -754,7 +746,6 @@
             <autoFill>true</autoFill>
           </contextMenu>
           <type>ViewStatusAddition</type>
-          <source>ТаблицаРегламентныеЗаданияСостояниеПросмотра</source>
           <extInfo xsi:type="form:ViewStatusAdditionExtInfo">
             <autoMaxWidth>true</autoMaxWidth>
             <horizontalLocation>Left</horizontalLocation>
@@ -794,7 +785,6 @@
             <autoFill>true</autoFill>
           </contextMenu>
           <type>SearchControlAddition</type>
-          <source>ТаблицаРегламентныеЗаданияУправлениеПоиском</source>
           <extInfo xsi:type="form:SearchControlAdditionExtInfo">
             <autoMaxWidth>true</autoMaxWidth>
           </extInfo>
@@ -845,6 +835,7 @@
             <autoMaxWidth>true</autoMaxWidth>
             <autoMaxHeight>true</autoMaxHeight>
             <placementArea>UserCmds</placementArea>
+            <toolTipRepresentation>Auto</toolTipRepresentation>
           </items>
           <items xsi:type="form:Button">
             <name>ТаблицаРегламентныеЗаданияКонтекстноеМенюВключитьРегламентноеЗадание</name>
@@ -874,6 +865,7 @@
             <autoMaxWidth>true</autoMaxWidth>
             <autoMaxHeight>true</autoMaxHeight>
             <placementArea>UserCmds</placementArea>
+            <toolTipRepresentation>Auto</toolTipRepresentation>
           </items>
           <items xsi:type="form:Button">
             <name>ТаблицаРегламентныеЗаданияКонтекстноеМенюВыключитьРегламентноеЗадание</name>
@@ -903,6 +895,7 @@
             <autoMaxWidth>true</autoMaxWidth>
             <autoMaxHeight>true</autoMaxHeight>
             <placementArea>UserCmds</placementArea>
+            <toolTipRepresentation>Auto</toolTipRepresentation>
           </items>
           <items xsi:type="form:Button">
             <name>ТаблицаРегламентныеЗаданияКонтекстноеМенюВывестиСписок</name>
@@ -932,6 +925,7 @@
             <autoMaxWidth>true</autoMaxWidth>
             <autoMaxHeight>true</autoMaxHeight>
             <placementArea>UserCmds</placementArea>
+            <toolTipRepresentation>Auto</toolTipRepresentation>
           </items>
           <items xsi:type="form:Button">
             <name>ТаблицаРегламентныеЗаданияКонтекстноеМенюКопироватьВБуферОбмена</name>
@@ -961,6 +955,7 @@
             <autoMaxWidth>true</autoMaxWidth>
             <autoMaxHeight>true</autoMaxHeight>
             <placementArea>UserCmds</placementArea>
+            <toolTipRepresentation>Auto</toolTipRepresentation>
           </items>
           <items xsi:type="form:Button">
             <name>ТаблицаРегламентныеЗаданияКонтекстноеМенюДобавить</name>
@@ -989,6 +984,7 @@
             <autoMaxWidth>true</autoMaxWidth>
             <autoMaxHeight>true</autoMaxHeight>
             <placementArea>UserCmds</placementArea>
+            <toolTipRepresentation>Auto</toolTipRepresentation>
           </items>
           <items xsi:type="form:Button">
             <name>ТаблицаРегламентныеЗаданияКонтекстноеМенюСкопировать</name>
@@ -1017,6 +1013,7 @@
             <autoMaxWidth>true</autoMaxWidth>
             <autoMaxHeight>true</autoMaxHeight>
             <placementArea>UserCmds</placementArea>
+            <toolTipRepresentation>Auto</toolTipRepresentation>
           </items>
           <items xsi:type="form:Button">
             <name>ТаблицаРегламентныеЗаданияКонтекстноеМенюИзменить</name>
@@ -1045,6 +1042,7 @@
             <autoMaxWidth>true</autoMaxWidth>
             <autoMaxHeight>true</autoMaxHeight>
             <placementArea>UserCmds</placementArea>
+            <toolTipRepresentation>Auto</toolTipRepresentation>
           </items>
           <items xsi:type="form:Button">
             <name>ТаблицаРегламентныеЗаданияКонтекстноеМенюУдалить</name>
@@ -1073,6 +1071,7 @@
             <autoMaxWidth>true</autoMaxWidth>
             <autoMaxHeight>true</autoMaxHeight>
             <placementArea>UserCmds</placementArea>
+            <toolTipRepresentation>Auto</toolTipRepresentation>
           </items>
           <visible>true</visible>
           <enabled>true</enabled>
@@ -1198,10 +1197,8 @@
             <userVisible>
               <common>true</common>
             </userVisible>
-            <dataPath xsi:type="form:MultiLanguageDataPath">
-              <paths xsi:type="form:DataPath">
-                <segments>ОтборПоСостояниюЗавершено</segments>
-              </paths>
+            <dataPath xsi:type="form:DataPath">
+              <segments>ОтборПоСостояниюЗавершено</segments>
             </dataPath>
             <titleLocation>Right</titleLocation>
             <toolTip>
@@ -1248,10 +1245,8 @@
             <userVisible>
               <common>true</common>
             </userVisible>
-            <dataPath xsi:type="form:MultiLanguageDataPath">
-              <paths xsi:type="form:DataPath">
-                <segments>ОтборПоСостояниюЗавершеноАварийно</segments>
-              </paths>
+            <dataPath xsi:type="form:DataPath">
+              <segments>ОтборПоСостояниюЗавершеноАварийно</segments>
             </dataPath>
             <titleLocation>Right</titleLocation>
             <toolTip>
@@ -1298,10 +1293,8 @@
             <userVisible>
               <common>true</common>
             </userVisible>
-            <dataPath xsi:type="form:MultiLanguageDataPath">
-              <paths xsi:type="form:DataPath">
-                <segments>ОтборПоСостояниюОтменено</segments>
-              </paths>
+            <dataPath xsi:type="form:DataPath">
+              <segments>ОтборПоСостояниюОтменено</segments>
             </dataPath>
             <titleLocation>Right</titleLocation>
             <toolTip>
@@ -1348,10 +1341,8 @@
             <userVisible>
               <common>true</common>
             </userVisible>
-            <dataPath xsi:type="form:MultiLanguageDataPath">
-              <paths xsi:type="form:DataPath">
-                <segments>ОтборПоСостояниюАктивно</segments>
-              </paths>
+            <dataPath xsi:type="form:DataPath">
+              <segments>ОтборПоСостояниюАктивно</segments>
             </dataPath>
             <titleLocation>Right</titleLocation>
             <toolTip>
@@ -1477,10 +1468,8 @@
             <userVisible>
               <common>true</common>
             </userVisible>
-            <dataPath xsi:type="form:MultiLanguageDataPath">
-              <paths xsi:type="form:DataPath">
-                <segments>ВидОтбораПоПериоду</segments>
-              </paths>
+            <dataPath xsi:type="form:DataPath">
+              <segments>ВидОтбораПоПериоду</segments>
             </dataPath>
             <titleLocation>None</titleLocation>
             <handlers>
@@ -1583,10 +1572,8 @@
               <userVisible>
                 <common>true</common>
               </userVisible>
-              <dataPath xsi:type="form:MultiLanguageDataPath">
-                <paths xsi:type="form:DataPath">
-                  <segments>ОтборПериодС</segments>
-                </paths>
+              <dataPath xsi:type="form:DataPath">
+                <segments>ОтборПериодС</segments>
               </dataPath>
               <extendedTooltip>
                 <name>ОтборПериодСExtendedTooltip</name>
@@ -1634,10 +1621,8 @@
               <userVisible>
                 <common>true</common>
               </userVisible>
-              <dataPath xsi:type="form:MultiLanguageDataPath">
-                <paths xsi:type="form:DataPath">
-                  <segments>ОтборПериодПо</segments>
-                </paths>
+              <dataPath xsi:type="form:DataPath">
+                <segments>ОтборПериодПо</segments>
               </dataPath>
               <extendedTooltip>
                 <name>ОтборПериодПоExtendedTooltip</name>
@@ -1753,10 +1738,8 @@
             <userVisible>
               <common>true</common>
             </userVisible>
-            <dataPath xsi:type="form:MultiLanguageDataPath">
-              <paths xsi:type="form:DataPath">
-                <segments>ОтбиратьПоРегламентномуЗаданию</segments>
-              </paths>
+            <dataPath xsi:type="form:DataPath">
+              <segments>ОтбиратьПоРегламентномуЗаданию</segments>
             </dataPath>
             <titleLocation>Right</titleLocation>
             <toolTip>
@@ -1806,10 +1789,8 @@
             <userVisible>
               <common>true</common>
             </userVisible>
-            <dataPath xsi:type="form:MultiLanguageDataPath">
-              <paths xsi:type="form:DataPath">
-                <segments>РегламентноеЗаданиеДляОтбораИдентификатор</segments>
-              </paths>
+            <dataPath xsi:type="form:DataPath">
+              <segments>РегламентноеЗаданиеДляОтбораИдентификатор</segments>
             </dataPath>
             <titleLocation>None</titleLocation>
             <toolTip>
@@ -1957,10 +1938,8 @@
               <userVisible>
                 <common>true</common>
               </userVisible>
-              <dataPath xsi:type="form:MultiLanguageDataPath">
-                <paths xsi:type="form:DataPath">
-                  <segments>ТаблицаФоновыеЗадания.Состояние</segments>
-                </paths>
+              <dataPath xsi:type="form:DataPath">
+                <segments>ТаблицаФоновыеЗадания.Состояние</segments>
               </dataPath>
               <extendedTooltip>
                 <name>СостояниеExtendedTooltip</name>
@@ -2010,10 +1989,8 @@
               <userVisible>
                 <common>true</common>
               </userVisible>
-              <dataPath xsi:type="form:MultiLanguageDataPath">
-                <paths xsi:type="form:DataPath">
-                  <segments>ТаблицаФоновыеЗадания.Наименование</segments>
-                </paths>
+              <dataPath xsi:type="form:DataPath">
+                <segments>ТаблицаФоновыеЗадания.Наименование</segments>
               </dataPath>
               <extendedTooltip>
                 <name>НаименованиеФоновогоЗаданияExtendedTooltip</name>
@@ -2061,10 +2038,8 @@
               <userVisible>
                 <common>true</common>
               </userVisible>
-              <dataPath xsi:type="form:MultiLanguageDataPath">
-                <paths xsi:type="form:DataPath">
-                  <segments>ТаблицаФоновыеЗадания.Начало</segments>
-                </paths>
+              <dataPath xsi:type="form:DataPath">
+                <segments>ТаблицаФоновыеЗадания.Начало</segments>
               </dataPath>
               <extendedTooltip>
                 <name>НачалоExtendedTooltip</name>
@@ -2118,10 +2093,8 @@
               <userVisible>
                 <common>true</common>
               </userVisible>
-              <dataPath xsi:type="form:MultiLanguageDataPath">
-                <paths xsi:type="form:DataPath">
-                  <segments>ТаблицаФоновыеЗадания.Конец</segments>
-                </paths>
+              <dataPath xsi:type="form:DataPath">
+                <segments>ТаблицаФоновыеЗадания.Конец</segments>
               </dataPath>
               <extendedTooltip>
                 <name>КонецExtendedTooltip</name>
@@ -2175,10 +2148,8 @@
               <userVisible>
                 <common>true</common>
               </userVisible>
-              <dataPath xsi:type="form:MultiLanguageDataPath">
-                <paths xsi:type="form:DataPath">
-                  <segments>ТаблицаФоновыеЗадания.НаименованиеРегламентногоЗадания</segments>
-                </paths>
+              <dataPath xsi:type="form:DataPath">
+                <segments>ТаблицаФоновыеЗадания.НаименованиеРегламентногоЗадания</segments>
               </dataPath>
               <extendedTooltip>
                 <name>НаименованиеРегламентногоЗаданияExtendedTooltip</name>
@@ -2250,6 +2221,7 @@
                 <autoMaxWidth>true</autoMaxWidth>
                 <autoMaxHeight>true</autoMaxHeight>
                 <placementArea>UserCmds</placementArea>
+                <toolTipRepresentation>Auto</toolTipRepresentation>
               </items>
               <items xsi:type="form:Button">
                 <name>ТаблицаФоновыеЗаданияОткрыть</name>
@@ -2281,6 +2253,7 @@
                 <autoMaxWidth>true</autoMaxWidth>
                 <autoMaxHeight>true</autoMaxHeight>
                 <placementArea>UserCmds</placementArea>
+                <toolTipRepresentation>Auto</toolTipRepresentation>
               </items>
               <items xsi:type="form:Button">
                 <name>ТаблицаФоновыеЗаданияОтменить</name>
@@ -2315,6 +2288,7 @@
                 <autoMaxWidth>true</autoMaxWidth>
                 <autoMaxHeight>true</autoMaxHeight>
                 <placementArea>UserCmds</placementArea>
+                <toolTipRepresentation>Auto</toolTipRepresentation>
               </items>
               <items xsi:type="form:Button">
                 <name>ТаблицаФоновыеЗаданияСправка</name>
@@ -2345,6 +2319,7 @@
                 <autoMaxWidth>true</autoMaxWidth>
                 <autoMaxHeight>true</autoMaxHeight>
                 <placementArea>UserCmds</placementArea>
+                <toolTipRepresentation>Auto</toolTipRepresentation>
               </items>
               <visible>true</visible>
               <enabled>true</enabled>
@@ -2391,7 +2366,6 @@
                 </userVisible>
                 <autoFill>true</autoFill>
               </contextMenu>
-              <source>ТаблицаФоновыеЗаданияСтрокаПоиска</source>
               <extInfo xsi:type="form:SearchStringAdditionExtInfo">
                 <autoMaxWidth>true</autoMaxWidth>
               </extInfo>
@@ -2430,7 +2404,6 @@
                 <autoFill>true</autoFill>
               </contextMenu>
               <type>ViewStatusAddition</type>
-              <source>ТаблицаФоновыеЗаданияСостояниеПросмотра</source>
               <extInfo xsi:type="form:ViewStatusAdditionExtInfo">
                 <autoMaxWidth>true</autoMaxWidth>
                 <horizontalLocation>Left</horizontalLocation>
@@ -2470,7 +2443,6 @@
                 <autoFill>true</autoFill>
               </contextMenu>
               <type>SearchControlAddition</type>
-              <source>ТаблицаФоновыеЗаданияУправлениеПоиском</source>
               <extInfo xsi:type="form:SearchControlAdditionExtInfo">
                 <autoMaxWidth>true</autoMaxWidth>
               </extInfo>
@@ -3844,7 +3816,7 @@
   <commandInterface>
     <navigationPanel>
       <cmiFragmentRecord>
-        <command>0:f7ccc574-d6c3-495a-86b4-7e24e75502d9</command>
+        <command>0</command>
         <group>FormNavigationPanelImportant</group>
         <index>2</index>
         <userVisible>
@@ -3852,7 +3824,7 @@
         </userVisible>
       </cmiFragmentRecord>
       <cmiFragmentRecord>
-        <command>0:49440928-bbd6-4c6a-bf40-af70a34d7372</command>
+        <command>0</command>
         <group>FormNavigationPanelImportant</group>
         <index>0</index>
         <userVisible>
@@ -3860,7 +3832,7 @@
         </userVisible>
       </cmiFragmentRecord>
       <cmiFragmentRecord>
-        <command>0:721481be-40e4-45b6-9530-ad7fb0c60429</command>
+        <command>0</command>
         <group>FormNavigationPanelImportant</group>
         <index>1</index>
         <userVisible>
@@ -3868,7 +3840,7 @@
         </userVisible>
       </cmiFragmentRecord>
       <cmiFragmentRecord>
-        <command>0:f7ccc574-d6c3-495a-86b4-7e24e75502d9</command>
+        <command>0</command>
         <type>Added</type>
         <group>FormNavigationPanelGoTo</group>
         <index>1</index>
@@ -3877,7 +3849,7 @@
         </userVisible>
       </cmiFragmentRecord>
       <cmiFragmentRecord>
-        <command>0:49440928-bbd6-4c6a-bf40-af70a34d7372</command>
+        <command>0</command>
         <type>Added</type>
         <group>FormNavigationPanelImportant</group>
         <index>0</index>
@@ -3886,7 +3858,7 @@
         </userVisible>
       </cmiFragmentRecord>
       <cmiFragmentRecord>
-        <command>0:721481be-40e4-45b6-9530-ad7fb0c60429</command>
+        <command>0</command>
         <type>Added</type>
         <group>FormNavigationPanelGoTo</group>
         <index>0</index>

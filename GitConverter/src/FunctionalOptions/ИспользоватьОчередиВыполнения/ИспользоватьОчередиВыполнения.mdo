@@ -5,7 +5,6 @@
     <key>ru</key>
     <value>Использовать очереди выполнения</value>
   </synonym>
-  <comment></comment>
   <location>Constant.ИспользоватьОчередиВыполнения</location>
   <privilegedGetMode>true</privilegedGetMode>
   <content>Catalog.ОчередиВыполнения</content>

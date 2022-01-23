@@ -8,10 +8,8 @@
     <userVisible>
       <common>true</common>
     </userVisible>
-    <dataPath xsi:type="form:MultiLanguageDataPath">
-      <paths xsi:type="form:DataPath">
-        <segments>Объект.Description</segments>
-      </paths>
+    <dataPath xsi:type="form:DataPath">
+      <segments>Объект.Description</segments>
     </dataPath>
     <extendedTooltip>
       <name>НаименованиеРасширеннаяПодсказка1</name>
@@ -63,10 +61,8 @@
       <userVisible>
         <common>true</common>
       </userVisible>
-      <dataPath xsi:type="form:MultiLanguageDataPath">
-        <paths xsi:type="form:DataPath">
-          <segments>ТипОчереди</segments>
-        </paths>
+      <dataPath xsi:type="form:DataPath">
+        <segments>ТипОчереди</segments>
       </dataPath>
       <handlers>
         <event>OnChange</event>
@@ -131,10 +127,8 @@
       <userVisible>
         <common>true</common>
       </userVisible>
-      <dataPath xsi:type="form:MultiLanguageDataPath">
-        <paths xsi:type="form:DataPath">
-          <segments>Объект.Хранилище</segments>
-        </paths>
+      <dataPath xsi:type="form:DataPath">
+        <segments>Объект.Хранилище</segments>
       </dataPath>
       <titleLocation>None</titleLocation>
       <extendedTooltip>
@@ -213,10 +207,8 @@
     <userVisible>
       <common>true</common>
     </userVisible>
-    <dataPath xsi:type="form:MultiLanguageDataPath">
-      <paths xsi:type="form:DataPath">
-        <segments>Объект.Операция</segments>
-      </paths>
+    <dataPath xsi:type="form:DataPath">
+      <segments>Объект.Операция</segments>
     </dataPath>
     <extendedTooltip>
       <name>ОперацияРасширеннаяПодсказка1</name>
@@ -265,10 +257,8 @@
     <userVisible>
       <common>true</common>
     </userVisible>
-    <dataPath xsi:type="form:MultiLanguageDataPath">
-      <paths xsi:type="form:DataPath">
-        <segments>Объект.МаксимальноеКоличествоОпераций</segments>
-      </paths>
+    <dataPath xsi:type="form:DataPath">
+      <segments>Объект.МаксимальноеКоличествоОпераций</segments>
     </dataPath>
     <extendedTooltip>
       <name>МаксимальноеКоличествоОперацийРасширеннаяПодсказка1</name>
@@ -320,10 +310,8 @@
       <userVisible>
         <common>true</common>
       </userVisible>
-      <dataPath xsi:type="form:MultiLanguageDataPath">
-        <paths xsi:type="form:DataPath">
-          <segments>Объект.ПрефиксНачалаНомераВерсии</segments>
-        </paths>
+      <dataPath xsi:type="form:DataPath">
+        <segments>Объект.ПрефиксНачалаНомераВерсии</segments>
       </dataPath>
       <extendedTooltip>
         <name>ПрефиксНачалаНомераВерсииРасширеннаяПодсказка</name>
@@ -376,10 +364,8 @@
       <userVisible>
         <common>true</common>
       </userVisible>
-      <dataPath xsi:type="form:MultiLanguageDataPath">
-        <paths xsi:type="form:DataPath">
-          <segments>Объект.ПрефиксОкончанияНомераВерсии</segments>
-        </paths>
+      <dataPath xsi:type="form:DataPath">
+        <segments>Объект.ПрефиксОкончанияНомераВерсии</segments>
       </dataPath>
       <extendedTooltip>
         <name>ПрефиксОкончанияНомераВерсииРасширеннаяПодсказка</name>
@@ -459,10 +445,8 @@
       <userVisible>
         <common>true</common>
       </userVisible>
-      <dataPath xsi:type="form:MultiLanguageDataPath">
-        <paths xsi:type="form:DataPath">
-          <segments>РегламентноеЗаданиеИспользуется</segments>
-        </paths>
+      <dataPath xsi:type="form:DataPath">
+        <segments>РегламентноеЗаданиеИспользуется</segments>
       </dataPath>
       <titleLocation>Right</titleLocation>
       <handlers>
@@ -509,10 +493,8 @@
       <userVisible>
         <common>true</common>
       </userVisible>
-      <dataPath xsi:type="form:MultiLanguageDataPath">
-        <paths xsi:type="form:DataPath">
-          <segments>РасписаниеСтрокой</segments>
-        </paths>
+      <dataPath xsi:type="form:DataPath">
+        <segments>РасписаниеСтрокой</segments>
       </dataPath>
       <titleLocation>None</titleLocation>
       <extendedTooltip>
@@ -618,6 +600,7 @@
       <autoMaxWidth>true</autoMaxWidth>
       <autoMaxHeight>true</autoMaxHeight>
       <placementArea>UserCmds</placementArea>
+      <toolTipRepresentation>Auto</toolTipRepresentation>
       <representationInContextMenu>Auto</representationInContextMenu>
     </items>
     <visible>true</visible>
